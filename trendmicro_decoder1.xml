@@ -1,8 +1,4 @@
 <decoder name="TrendMicro_custom">
-  <prematch>\S+\s\d+\s\d+:\d+:\d+\s\S+</prematch>
-</decoder>
-
-<decoder name="TrendMicro_custom">
 <program_name type="osregex">\.+</program_name>
 <prematch>Trend Micro</prematch>
 </decoder>
